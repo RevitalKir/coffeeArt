@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 /*end of reset css*/
-
+/*global css*/
 html {-webkit-text-size-adjust: none; }
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -55,17 +55,9 @@ body {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;	/*also loaded 600 for bold*/
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-
 }
 
 h1{ font-size: 3em;
-}
-
-h2 {
-    font-size: 2em;
 }
 
 h3 {
@@ -75,32 +67,17 @@ h3 {
 .white{color:#ffffff;
 }
 
-.red {color:rgba(245,2,6,1.00);
-}
-
-.strong{font-weight:bold;
-}
-
-
-
 .small {font-size:0.8em; 
-	}
-	
-.align-center { text-align:center
 }
+	
 a {text-decoration:none;
 }
 
-p { padding-left:1em;
-	letter-spacing: 1px;
+p { letter-spacing: 1px;
 	line-height:1.3em;
 }
 
-.hidden {display:none;
-}
-
 .bg-brown {
- 
     background-color: rgba(47,23,15,.9);
 }
 
@@ -131,10 +108,10 @@ body{
     -webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
     -moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
     box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
-    }
-   .border-bottom {
+}
+.border-bottom {
        color: rgb(202, 201, 201);
-   } 
+} 
 /*****************TOP -NAVIGARION*****************************/
 
 .navbar-dark .navbar-nav a.nav-link {
@@ -152,9 +129,9 @@ nav.top-navigation form input.form-control{
     max-width:140px;
     font-size: 1em;
 }
+
 nav.top-navigation ul li a,
-nav.top-navigation form input
- {
+nav.top-navigation form input{
     -webkit-animation: divscrollmenumove 1s;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-timing-function: linear;
@@ -212,7 +189,6 @@ nav.top-navigation form input
     /* Safari 4.0 - 8.0 */
     animation: scrolldowniframe 0.5s;
     animation-timing-function: linear;
-   
 }
 
 /* Safari 4.0 - 8.0 */
@@ -262,8 +238,6 @@ background-color:#e6a756;
 border:2px solid #e6a756;
 }
 
-/*end of commit comment*/
-
 
 /*list of users comments*/
 ul.comments-list{
@@ -289,7 +263,6 @@ footer p{
 
 @media (max-width: 700px){
     #presentation-video iframe{
-     
        margin:0 auto;
        height: 300px;
       
