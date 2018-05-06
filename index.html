@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no" media="screen and (max-width:768px)">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=no" media="screen and (max-width:540px)" user-scalable="no">
+  <meta name="description" content="see why coffe is the best beverage ">
+  <meta name="author" content="">
+
+  <title>Coffee Place</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
+  
+  <!-- Custom CSS -->
+
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body id="coffePlace">
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-brown top-navigation fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                    <img src="img/coffeeCup.png"  height="35" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About
+                            </a>
+                            </li>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">Videos</a>
+                            <span class="sr-only">(current)</span>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="devider"></div>
+    <main class="mb-5">
+        <div class="container-fluid top-container">
+            <div class="container">
+                <div id="presentation-video" class="center bg-image-bloc">
+                    <div class="row">
+                        <iframe src="https://www.youtube.com/embed/jYq1pHJYQmw">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="media mt-20">
+                    <img class="align-self-start mr-3" height="60px" src="img/make-coffee-art.jpg" alt="make coffe art">
+                    <div class="media-body white">
+                        <h3 class="mt-0 mb-1">Want to learn more about the coffee art</h3>
+                        <p>You can email me at coffeeArt@coffee.ca</p>
+                        <p>You can also visit my website to learn more</p>
+                        <button class="button mt-20 white" >Visit Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container">
+            <form class="mt-20 clearfix">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="mb-2 white">Write Your Comment</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <div class="clearfix">
+                    <button type="submit" class="button float-right white" >Submit</button>
+                </div>  
+            </form>
+        </div>
+
+        <div class="container ">
+            <ul class="list-unstyled comments-list pt-5">
+                <li class="media border-bottom">
+                    <img class="mr-3" src="img/avatar-icon1.png" alt="user avatar" height="50px">
+                    <div class="media_body white">
+                        <h3 class="mt-0 mb-1">Rachel</h3>
+                        <p class="pb-2"> It's looks viry nice, but to hard for me to try</p>
+                    </div>
+                </li>
+                <li class="media my-4 border-bottom">
+                    <img class="mr-3" src="img/avatar-icon2.png" alt="user avatar" height="50px">
+                    <div class="media_body white">
+                        <h3 class="mt-0 mb-1">Gunther</h3>
+                        <p class="pb-2">I tried that technic, the coffee was beautiful, but it didn't help me to get Rachel. She didn't even notice.</p>
+                </div>
+                </li>
+                <li class="media my-4 border-bottom">
+                    <img class="mr-3" src="img/avatar-icon3.png" alt="user avatar" height="50px">
+                    <div class="media_body white">
+                        <h3 class="mt-0 mb-1">Ross Geller </h3>
+                        <p class="pb-2">I made coffee for Rachel with a flower. She loved it</p>
+                    </div>
+                </li>
+                <li class="media my-4 border-bottom">
+                    <img class="mr-3" src="img/avatar-icon4.png" alt="user avatar" height="50px">
+                    <div class="media_body white">
+                        <h3 class="mt-0 mb-1"> Phoebe Buffay</h3>
+                        <p class="pb-2">I love your cafe. I can sing "Smelly Cat" and drink beautiful coffee</p>
+                    </div>
+                </li>
+                <li class="media my-4 border-bottom">
+                    <img class="mr-3 mt-1" src="img/avatar-icon5.png" alt="user avatar" height="50px">
+                    <div class="media_body white">
+                        <h3 class="mt-0 mb-1">Monica</h3>
+                        <p class="pb-2"> Some make art with food, some with coffee</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="container-fluid bg-brown">
+
+        <div class="container clearfix border-bottom">
+        <ul class="nav flex-column float-left ">
+            <li class="nav-item">
+                <a class="nav-link white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link white" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link white" href="#">Contact</a>
+            </li>
+        </ul>
+        <a class="navbar-brand float-right" href="#">
+                <img src="img/coffeeCup.png"  height="35" alt="">
+                </a>
+    </div>
+    <p class="white small">All rights reserved &commat;coffeeArt 2018</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+    
+</html>
+
+<script type="text/javascript">
+ 
+</script>
